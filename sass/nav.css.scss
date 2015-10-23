@@ -1,0 +1,31 @@
+nav {
+  background-color: #e9e1ea;
+  padding: 10px 0;
+  
+  > .container {
+    display: table;
+    
+    > .image {
+      display: table-cell;
+      width: 70px;
+    }
+  
+    > .tagline {
+      display: table-cell;
+      vertical-align: middle;
+      
+      color: $primaryColor;
+      font-size: $headerFontSize;
+      font-weight: bold;
+    }
+    
+    > .engines {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: right;
+      
+      color: $primaryColor;
+      font-size: $headerFontSize;
+    }
+  }
+}

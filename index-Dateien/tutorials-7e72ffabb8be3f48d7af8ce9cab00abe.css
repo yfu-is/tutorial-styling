@@ -1,0 +1,576 @@
+/**
+* html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+* Richard Clark (http://richclarkdesign.com)
+* http://cssreset.com
+*/
+/* line 18, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 27, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+body {
+  line-height: 1;
+}
+
+/* line 31, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 34, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+nav ul {
+  list-style: none;
+}
+
+/* line 37, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 41, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+/* line 53, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+/* line 59, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 65, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+del {
+  text-decoration: line-through;
+}
+
+/* line 68, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 72, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+/* line 77, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 85, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/reset.css */
+input, select {
+  vertical-align: middle;
+}
+
+/* National */
+@font-face {
+  font-family: "National";
+  src: url(fonts/NationalWeb-Regular-84cb63633878af40e4976397a0408ced.eot), url(fonts/NationalWeb-Regular.eot?#iefix) format("embedded-opentype"), url(fonts/NationalWeb-Regular.woff) format("woff");
+  font-weight: 400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National";
+  src: url(fonts/NationalWeb-Bold.eot), url(fonts/NationalWeb-Bold.eot?#iefix) format("embedded-opentype"), url(fonts/NationalWeb-Bold.woff) format("woff");
+  font-weight: 400;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National";
+  src: url(fonts/NationalWeb-RegularItalic.eot), url(fonts/NationalWeb-RegularItalic.eot?#iefix) format("embedded-opentype"), url(fonts/NationalWeb-RegularItalic.woff) format("woff");
+  font-weight: 400;
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "National";
+  src: url(fonts/NationalWeb-BoldItalic.eot), url(fonts/NationalWeb-BoldItalic.eot?#iefix) format("embedded-opentype"), url(fonts/NationalWeb-BoldItalic.woff) format("woff");
+  font-weight: 400;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* National LF */
+@font-face {
+  font-family: "National LF";
+  src: url(fonts/NationalWebLF-Regular.eot), url(fonts/NationalWebLF-Regular.eot?#iefix) format("embedded-opentype"), url(fonts/NationalWebLF-Regular.woff) format("woff");
+  font-weight: 400;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National LF";
+  src: url(fonts/NationalWebLF-Bold.eot), url(fonts/NationalWebLF-Bold.eot?#iefix) format("embedded-opentype"), url(fonts/NationalWebLF-Bold.woff) format("woff");
+  font-weight: 400;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "National LF";
+  src: url(fonts/NationalWebLF-RegularItalic.eot), url(fonts/NationalWebLF-RegularItalic.eot?#iefix) format("embedded-opentype"), url(fonts/NationalWebLF-RegularItalic.woff) format("woff");
+  font-weight: 400;
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "National LF";
+  src: url(fonts/NationalWebLF-BoldItalic.eot), url(fonts/NationalWebLF-BoldItalic.eot?#iefix) format("embedded-opentype"), url(fonts/NationalWebLF-BoldItalic.woff) format("woff");
+  font-weight: 400;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* line 1, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+body {
+  font-family: "National";
+  font-size: 16px;
+  color: #555555;
+  font-weight: normal;
+  text-align: center;
+  line-height: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* line 13, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 19, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+.slogan1 {
+  text-transform: uppercase;
+  color: #555555;
+}
+
+/* line 24, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+.slogan2 {
+  text-transform: lowercase;
+  color: #642869;
+}
+
+/* line 34, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+h1 {
+  color: #642869;
+  font-size: 26px;
+  margin: 26px 0;
+}
+
+/* line 34, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+h2 {
+  color: #642869;
+  font-size: 23.11111px;
+  margin: 23.11111px 0;
+}
+
+/* line 34, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+h3 {
+  color: #642869;
+  font-size: 20.22222px;
+  margin: 20.22222px 0;
+}
+
+/* line 34, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+h4 {
+  color: #642869;
+  font-size: 17.33333px;
+  margin: 17.33333px 0;
+}
+
+/* line 41, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+.button {
+  display: inline;
+  background-color: #642869;
+  color: white;
+  padding: 8px 32px;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: "National";
+  line-height: 16px;
+  border: 0;
+  vertical-align: baseline;
+}
+/* line 53, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+.button.gray, .button.disabled {
+  background-color: #555555;
+  color: white;
+}
+
+/* line 59, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+p {
+  margin: 16px 0;
+}
+
+/* line 63, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+a {
+  color: #642869;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 70, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+.clear.both {
+  clear: both;
+}
+
+/* line 75, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+#overlay {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(85, 85, 85, 0.9);
+}
+/* line 85, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/defaults.css.scss */
+#overlay > .loading {
+  color: #FFF;
+  font-size: 25px;
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  margin-top: 25%;
+}
+
+/* line 4, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/forms.css.scss */
+form span.error {
+  display: block;
+  color: red;
+}
+/* line 9, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/forms.css.scss */
+form .input {
+  margin: 16px 0;
+  display: block;
+}
+/* line 13, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/forms.css.scss */
+form .input label {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+/* line 20, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/forms.css.scss */
+form .input.field_with_errors textarea, form .input.field_with_errors input[type=text] {
+  border: 1px dotted red;
+}
+/* line 26, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/forms.css.scss */
+form .input textarea, form .input input[type=text] {
+  border: 1px dotted #555555;
+  padding: 10px;
+  width: 60%;
+  text-align: center;
+  font-family: "National";
+  font-size: 16px;
+}
+/* line 35, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/forms.css.scss */
+form .input select {
+  padding: 10px;
+  border: 1px dotted #555555;
+  font-size: 16px;
+}
+/* line 42, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/forms.css.scss */
+form textarea {
+  height: 115px;
+  border: 0;
+}
+/* line 47, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/forms.css.scss */
+form .send-buttons {
+  display: block;
+  margin-top: 100px;
+  border: 0;
+  font-size: 16px;
+}
+/* line 54, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/forms.css.scss */
+form .hint {
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* line 13, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image .picture {
+  position: relative;
+}
+/* line 17, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image .mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 24, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.large {
+  width: 213px;
+  height: 213px;
+}
+/* line 28, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.large img, .round-image.large .mask {
+  width: 213px;
+  height: 213px;
+}
+/* line 33, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.large .mask {
+  background: url(/assets/round_image/large-3910ec16dc68d10297f767d018d800ce.png) no-repeat;
+}
+/* line 39, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.medium {
+  width: 141px;
+  height: 141px;
+}
+/* line 43, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.medium img, .round-image.medium .mask {
+  width: 141px;
+  height: 141px;
+}
+/* line 48, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.medium .mask {
+  background: url(/assets/round_image/medium-3d2e7af62884d4daeb52ee91d122987b.png) no-repeat;
+}
+/* line 54, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.small {
+  width: 70px;
+  height: 70px;
+}
+/* line 58, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.small img, .round-image.small .mask {
+  width: 70px;
+  height: 70px;
+}
+/* line 63, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.small .mask {
+  background: url(/assets/round_image/small-0375e1b9c4d9a33c5119402919f776c1.png) no-repeat;
+}
+/* line 69, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.xsmall {
+  width: 32px;
+  height: 32px;
+}
+/* line 73, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.xsmall img, .round-image.xsmall .mask {
+  width: 32px;
+  height: 32px;
+}
+/* line 78, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/round_image.css.scss */
+.round-image.xsmall .mask {
+  background: url(/assets/round_image/xsmall-b535df5f468ecf810e456098b26e8a52.png) no-repeat;
+}
+
+/* line 1, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/file_button.css.scss */
+.file.button {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  display: inline-block;
+}
+/* line 7, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/common/file_button.css.scss */
+.file.button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+/* line 1, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/defaults.css.scss */
+body {
+  padding: 0;
+  text-align: left;
+}
+
+/* line 6, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/defaults.css.scss */
+b, strong {
+  color: #642869;
+}
+
+/* line 10, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/defaults.css.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 14, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/defaults.css.scss */
+ul {
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+}
+/* line 18, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/defaults.css.scss */
+ul li {
+  padding-left: 0.2em;
+}
+
+/* line 1, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/nav.css.scss */
+nav {
+  background-color: #e9e1ea;
+  padding: 10px 0;
+}
+/* line 5, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/nav.css.scss */
+nav > .container {
+  display: table;
+}
+/* line 8, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/nav.css.scss */
+nav > .container > .image {
+  display: table-cell;
+  width: 70px;
+}
+/* line 13, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/nav.css.scss */
+nav > .container > .tagline {
+  display: table-cell;
+  vertical-align: middle;
+  color: #642869;
+  font-size: 26px;
+  font-weight: bold;
+}
+/* line 22, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/nav.css.scss */
+nav > .container > .engines {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  color: #642869;
+  font-size: 26px;
+}
+
+/* line 1, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/paging.css.scss */
+#paging {
+  display: table;
+  width: 100%;
+  margin: 25px 0;
+  padding-top: 5px;
+  border-top: 1px solid #642869;
+}
+/* line 9, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/paging.css.scss */
+#paging .preceeding {
+  display: table-cell;
+  text-align: left;
+}
+/* line 14, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/paging.css.scss */
+#paging .next {
+  display: table-cell;
+  text-align: right;
+}
+
+/* line 3, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget {
+  margin: 10px 0;
+}
+/* line 7, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget.document > a {
+  display: table;
+  width: 98%;
+  background-color: #e9e1ea;
+  padding: 1%;
+  border-radius: 5px;
+}
+/* line 14, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget.document > a > i, #widgets .widget.document > a > .content {
+  display: table-cell;
+  vertical-align: top;
+}
+/* line 19, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget.document > a > .fa-file-text {
+  width: 1.2em;
+}
+/* line 23, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget.document > a > .fa-download {
+  text-align: right;
+}
+/* line 27, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget.document > a > .content > .description {
+  color: #555555;
+  font-weight: normal;
+}
+/* line 35, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget.link > a {
+  display: table;
+  width: 98%;
+  background-color: #e9e1ea;
+  padding: 1%;
+  border-radius: 5px;
+}
+/* line 42, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget.link > a > i, #widgets .widget.link > a > .content {
+  display: table-cell;
+  vertical-align: top;
+}
+/* line 47, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget.link > a > .fa-external-link {
+  width: 1.2em;
+}
+/* line 51, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget.link > a > .content > .description {
+  color: #555555;
+  font-weight: normal;
+}
+/* line 58, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/widgets.css.scss */
+#widgets .widget .caption {
+  font-style: italic;
+}
+
+/* line 1, /Users/robert/Code/YFU/ParticipantPortal/app/assets/stylesheets/tutorials/footer.css.scss */
+footer {
+  background-color: rgba(85, 85, 85, 0.9);
+  color: white;
+  padding: 25px 0;
+  min-height: 150px;
+}

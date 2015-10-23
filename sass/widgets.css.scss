@@ -1,0 +1,63 @@
+#widgets {
+  
+  .widget {
+    margin: 10px 0;
+    
+    &.document {
+      > a {
+        display: table;
+        width: 98%;
+        background-color: $purplePastelle;
+        padding: 1%;
+        border-radius: 5px;
+        
+        > i, > .content {
+          display: table-cell;
+          vertical-align: top;
+        }
+      
+        > .fa-file-text {
+          width: 1.2em;
+        }
+      
+        > .fa-download {
+          text-align: right;
+        }
+        
+        > .content > .description {
+          color: $gray;
+          font-weight: normal;
+        }
+      }
+    }
+    
+    &.link {
+      > a {
+        display: table;
+        width: 98%;
+        background-color: $purplePastelle;
+        padding: 1%;
+        border-radius: 5px;
+        
+        > i, > .content {
+          display: table-cell;
+          vertical-align: top;
+        }
+        
+        > .fa-external-link {
+          width: 1.2em;
+        }
+        
+        > .content > .description {
+          color: $gray;
+          font-weight: normal;
+        }
+      }
+    }
+    
+    .caption {
+      font-style: italic;
+    }
+    
+  }
+}
