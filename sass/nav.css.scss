@@ -1,8 +1,9 @@
 nav {
-  background-color: #e9e1ea;
+  background-color: $lightGray;
   padding: 10px 0;
   margin-bottom: 20px;
-  font-family: National; 
+  @extend .borderBold;
+
   > .container {
     display: table;
 

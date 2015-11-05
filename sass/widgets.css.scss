@@ -1,41 +1,42 @@
-.content {
-  margin-top: 60px;
-}
-
-
-
 
 #widgets {
-
-
   .widget {
-    margin: 20px 0;
+    margin: 15px 0 35px 0;
 
     &.rich_text {
-       a {
-        border-bottom: 3px dotted $purple;
-      }
-      a:hover{
-        color: lighten($purple, 20%);
-        border-bottom: 3px dotted lighten($purple, 20%);
-      }
-
-
+      @extend .linkStlyed;
     }
-    
+
+
+    .pic, .video{
+      max-width: 600px;
+      max-height: 600px;
+      display: block;
+
+
+      img{
+        @extend .borderSoft
+      }
+      >.caption{
+      padding-left: 15px;
+      }
+    }
+
     &.document {
       > a {
-        display: table;
-        width: 98%;
-        background-color: $purplePastelle;
-        padding: 1%;
-        border-radius: 5px;
-        
+      max-width: 600px;
+      max-height: 600px;
+      display: table;
+      background-color: white;
+
         > i, > .content {
           display: table-cell;
           vertical-align: top;
         }
-      
+        
+        > .fa-external-link {
+          width: 1.2em;
+        }
         > .fa-file-text {
           width: 1.2em;
         }
@@ -43,22 +44,30 @@
         > .fa-download {
           text-align: right;
         }
-        
+
         > .content > .description {
           color: $gray;
           font-weight: normal;
+          font-size: 0.9em;
         }
       }
-    }
+
+      > a:hover {
+        color: $lightPurple;      
+        > i, > .content {
+          display: table-cell;
+        }
+      }
+      
+}
     
     &.link {
       > a {
-        display: table;
-        width: 98%;
-        background-color: $purplePastelle;
-        padding: 1%;
-        border-radius: 5px;
-        
+      max-width: 600px;
+      max-height: 600px;
+      display: table;
+      background-color: white;
+
         > i, > .content {
           display: table-cell;
           vertical-align: top;
@@ -71,16 +80,32 @@
         > .content > .description {
           color: $gray;
           font-weight: normal;
+          font-size: 0.9em;
         }
       }
+
+      > a:hover {
+        color: $lightPurple;      
+        > i, > .content {
+          display: table-cell;
+        }
+      }
+
+
     }
      &.video{
-      max-width: 200px;
+      @extend .borderSoft;
+      max-width: 600px;
+      max-height: 600px;
+
+      iframe{
+        width: 100%;
+        height: 350px;
       }
 
     .caption {
       font-style: italic;
     }
-    
+    }
   }
 }
