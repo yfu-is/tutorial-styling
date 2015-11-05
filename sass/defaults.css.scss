@@ -1,6 +1,29 @@
 body {
   padding: 0;
   text-align: left;
+  line-height: 1.2em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: National;
+}
+
+h1 {
+    font-size: 2em;
+    paddin: 0.5em 0;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 1.6em;
+    paddin: 0.2em 0;
+    padding: 0.2em 0 0 0;	
+}
+
+p {
+  padding: 5px 0;
+  line-height: 1.5em;
+  margin: 0;
 }
 
 b, strong {
@@ -11,11 +34,11 @@ img {
   max-width: 100%;
 }
 
-ul {
-  padding-left: 1em;
-  padding-bottom: 0.5em;
-  
+ul, ol {
+  padding: 0.3em 0 0.3em 2em; 
   li {
-    padding-left: 0.2em;
+    padding: 0.1em 0 0.1em 0.4em;
   }
-} 
+}
+
+

@@ -1,7 +1,27 @@
+.content {
+  margin-top: 60px;
+}
+
+
+
+
 #widgets {
-  
+
+
   .widget {
-    margin: 10px 0;
+    margin: 20px 0;
+
+    &.rich_text {
+       a {
+        border-bottom: 3px dotted $purple;
+      }
+      a:hover{
+        color: lighten($purple, 20%);
+        border-bottom: 3px dotted lighten($purple, 20%);
+      }
+
+
+    }
     
     &.document {
       > a {
@@ -54,7 +74,10 @@
         }
       }
     }
-    
+     &.video{
+      max-width: 200px;
+      }
+
     .caption {
       font-style: italic;
     }
